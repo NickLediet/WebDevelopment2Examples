@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+.hidden {
+    display:none;
+}
+
+h1{
+    font-family: 'Rock Salt', times, sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#mainNav {
+    height: 60px;
+    font-family: "Lucida Grande", arial, sans-serif;
+
+    /* Generated Gradient */
+    background: rgb(99,171,226);
+    background: -moz-linear-gradient(top,  rgba(99,171,226,1) 0%, rgba(15,135,226,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(99,171,226,1)), color-stop(100%,rgba(15,135,226,1)));
+    background: -webkit-linear-gradient(top,  rgba(99,171,226,1) 0%,rgba(15,135,226,1) 100%);
+    background: -o-linear-gradient(top,  rgba(99,171,226,1) 0%,rgba(15,135,226,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(99,171,226,1) 0%,rgba(15,135,226,1) 100%);
+    background: linear-gradient(to bottom,  rgba(99,171,226,1) 0%,rgba(15,135,226,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', endColorstr='#0f87e2',GradientType=0 );
+}
+
+#mainNav ul li {
+    float: left;
+}
+#mainNav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none; 
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+    transition: all .5s linear;
+}
+#mainNav ul li a:hover {
+    background: #73b2e3;
+    color: #333;
+}
