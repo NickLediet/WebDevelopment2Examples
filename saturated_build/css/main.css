@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden
+{
+    display: none;
+}
+
+/*html selectors*/
+
+body
+{
+	font-family: 'Average Sans', helvetica, arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+}
+
+p
+{
+	line-height: 20px;
+}
+
+a
+{
+	text-decoration: none;
+	color: red;
+}
+
+a:hover
+{
+	color: #ccc;
+}
+
+/*main page elements*/
+
+#topBar
+{
+	background-color: #333;
+	height: 20px;
+}
+
+#clientLogin
+{
+	float: right;
+	margin-right: 20px;
+	font-size: 10px;
+	line-height: 20px;
+}
+
+#topBar a
+{
+	color: #fff;
+}
+
+#topBar a:hover
+{
+	color:#ccc;
+}
+
+#siteContainer
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#mainHeader
+{
+	margin-top: 40px;
+	height: 100px;
+	border-bottom: solid 1px #ddd;
+	padding-bottom: 20px;
+}
+
+#logo
+{
+	float: left;
+	width: 260px;
+	margin-top: 5px;
+}
+
+#logo h1
+{
+	font-size: 44px;
+	color: red;
+	line-height: 40px;
+}
+
+#logoStudios
+{
+	font-size: 60px;
+	color: #333;
+	letter-spacing: -1px;
+}
+
+
+#search
+{
+	float: right;
+}
+
+#search form
+{
+	margin-bottom: 20px;
+}
+
+#search
+{
+	width: 150px;
+	border: 1px solid #d1d1d1;
+	padding: 6px 15px 6px 35px;
+	background: url('../images/search_white.png') no repeat 10px 6px #fcfcfc;
+	border-radius: 20px;
+	box-shadow: 0px 1px 3px rgba(0,0,0,.15) inset;
+}
+
+#mainNav ul
+{
+	clear: right;
+	float: right;
+}
+
+#mainNav ul li
+{
+	float: left;
+}
+
+#mainNav ul li a
+{
+	display: block;
+	background-color: red;
+	color: #fff;
+	width: 100px;
+	margin-left: 20px;
+	text-align: center;
+	padding: 8p;
+	font-size: 16px;
+	border-radius: 7px;
+background: #ff3019;
+background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404));
+background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+background: -o-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+background: -ms-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );	
+}
+
+#mainNav ul li a:hover
+{	background: rgb(226,29,22);
+background: -moz-linear-gradient(top, rgba(226,29,22,1) 0%, rgba(170,8,3,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,29,22,1)), color-stop(100%,rgba(170,8,3,1)));
+background: -webkit-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+background: -o-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+background: -ms-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+background: linear-gradient(to bottom, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e21d16', endColorstr='#aa0803',GradientType=0 );
+}
+
+#company
+{
+	margin-top: 40px;
+	border-background: solid 1px #ddd;
+	padding-bottom: 30px;
+	/*float: left;*/
+	overflow: hidden;
+}
+
+#companyText
+{
+	float: left;
+	width: 630px;
+}
+
+#companyText h2
+{
+	font-size: 34px;
+	font-family: 'fjalla one',helvetica,arial,sans-serif;
+	margin-bottom: 20px;
+	line-height: 44px;
+}
+
+#companyText p
+{
+	font-size: 16px;
+}
+
+#hire
+{
+	display: block;
+	width: 200px;
+	background-color: #666;
+	color: #fff;
+	text-align: center;
+	padding: 8px;
+	padding-bottom: 8px;
+	margin-top: 45px;
+	font-size: 18px;
+	border-radius: 7px;
+	transition: all .4s ease;
+}
+
+#hire:hover
+{
+	background-color: #333; 
+}
+
+#companyImage
+{
+	float: right;
+	width: 305;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
