@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+	font-family: 'Muli', Arial, sans-serif;
+}
+
+#container
+{
+	width: 400px;
+	height: 400px;
+	margin: 20px auto;
+	background-color: #efefef;
+	border: solid 1px #666;
+}
+
+#score
+{
+	height: 200px;
+	margin: 50px auto 0 auto;
+	width: 300px;
+	font-size: 120px;
+	line-height: 200px;
+	text-align: center;
+}
+
+h1
+{
+	color: red;
+	font-size: 18px;
+}
+
+button
+{
+	display: block;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	margin: 20px auto;
+	color: #ccc;
+	background-color: #555;
+	background: -webkit-linear-gradient(#888, #555);
+	background: linear-gradient(#888, #555);
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+	cursor: pointer;
+}
+
+
+
