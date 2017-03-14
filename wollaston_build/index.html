@@ -9,7 +9,52 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
- 	
+	<h1 class="hide">Wollaston Golf Club - London, Ontario</h1>
+	<!-- each chunk goes in a row, they are 1200px containers -->
+	<header class="row">
+		<nav class="small-12 large-7 large-offset-3 large-push-2 columns">
+			<p class="boxHelper">Nav</p>
+		</nav>
+		<div class="small-6 small-offset-3 large-2 large-offset-0 large-pull-10 end columns"><!-- I swear to god bootstrap is easier than this; I don't even really understand what is going on' -->
+		<!-- ESSENTIALLY WHAT IS GOING ON HERE IS:
+			 We are zeroing out of the small view a sizeing the components
+			 we are making the logo the end and forcing 10 coloumns back.
+			 Ask me if there are questions.   -->
+			<p class="boxHelper">Logo</p>
+		</div>
+	</header>
+
+	<div id="pano"><!-- So this div is going to be fluid.  Thus we can makethe bacgrkound image applied and inside we can have our grid based components -->
+		<section class="row"><!-- This is going to be just like normal -->
+			<div class="small-12 large-10 large-centered columns">
+				<p class="boxHelper">Frosted Glass</p>
+			</div>
+		</section>
+	</div>
+
+	<section class="row" id="services">
+		<h2 class="hide">Services</h2>
+		<div class="small-12 large-4 columns">
+			<p class="boxHelper">Box Element1</p>
+		</div>
+		<div class="small-12 large-4 columns">
+			<p class="boxHelper">Box Element2</p>
+		</div>
+		<div class="small-12 large-4 columns">
+			<p class="boxHelper">Box Element3</p>
+		</div>
+	</section>
+	
+	<section class="row" id="perks">
+		<h2 class="hide">Perks</h2>
+		<div class="small-12 large-6 columns">
+			<p class="boxHelper">The Club House</p>
+		</div>
+		<div class="small-12 large-6 columns">
+			<p class="boxHelper">Platinum Club</p>
+		</div>
+	</section>
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
